@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTLupSKfLogQrCj9-gK9i2FQQaVZSiC3c7YlKU58MHlyuyVQd1S2DEfrJfrx5z9BTFfk&usqp=CAU");
+    font-family: 'Saira Condensed', sans-serif;
+    background-size: contain;
+    background-position: left;
+    font-weight: 900px;
+    letter-spacing: 4;
+}
+canvas
+{
+border: 14px;
+border-style: ridge;
+border-top-color: slateblue;
+border-bottom-color: yellow;
+border-left-color: dodgerblue;
+border-right-color: gray;
+margin-top: 100px;
+animation-name: exeee;
+animation-duration: 4000ms;
+animation-iteration-count: infinite;
+
+}
+#brooo
+{
+    color: white;
+}
+#likesketch
+{
+background-color: black;
+float: right;
+
+}
+p
+{
+    color: white;
+}
+.btn-danger
+{
+    width: 25%;
+    height: 10%;
+    font-size: 25px;
+}
+@keyframes exeee
+{
+0%{box-shadow: 3px 3px 38px thistle;}
+50%{box-shadow: 3px 3px 38px green;}
+100%{box-shadow: 3px 3px 38px blueviolet;}
+}
